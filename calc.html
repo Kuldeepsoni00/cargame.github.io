@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Question Paper
+    </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+    <metd name="viewport" content="width=device-width,initial-scale=1">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+
+<body>
+    <div class="calculator">
+        <form name="form">
+            <input class="display">
+        </form>
+        <table>
+            <tr>
+                <td><input type="button" value="c" onclick="can()"></td>
+                <td><input type="button" value="/" onclick="num('/')"></td>
+                <td><input type="button" value="<" onclick="back()"></td>
+                <td><input type="button" value="x" onclick="num('*')"></td>
+
+            </tr>
+            <tr>
+                <td><input type="button" value="7" onclick="num(7)"></td>
+                <td><input type="button" value="8" onclick="num(8)"></td>
+                <td><input type="button" value="9" onclick="num(9)"></td>
+                <td><input type="button" value="-" onclick="num('-')"></td>
+
+            </tr>
+            <tr>
+                <td><input type="button" value="4" onclick="num(4)"></td>
+                <td><input type="button" value="5" onclick="num(5)"></td>
+                <td><input type="button" value="6" onclick="num(6)"></td>
+                <td><input type="button" value="+" onclick="num('+')"></td>
+
+            </tr>
+            <tr>
+                <td><input type="button" value="1" onclick="num(1)"></td>
+                <td><input type="button" value="2" onclick="num(2)"></td>
+                <td><input type="button" value="3" onclick="num(3)"></td>
+                <td rowspan="2"><input type="button"  value="=" onclick="equal()" style="height: 154px; background-color:orange;"></td>
+
+            </tr>
+            <tr>
+                <td colspan="2"><input type="button" value="0 " style="width:154px;" onclick="num(0)"></td>
+                <td><input type="button" value="." onclick="num('.')"></td>
+
+            </tr>
+        </table>
+    </div>
+    <script type="text/javascript" src="cal1.js"></script>
+</body>
+<html>

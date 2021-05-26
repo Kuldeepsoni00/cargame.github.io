@@ -1,0 +1,39 @@
+*{
+
+margin:0;
+padding:0;
+font-size: 35px;
+font-family: 'Orbitron', sans-serif;;
+
+}
+.calculator{
+
+    background-color:#39383d;
+    width: 324px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+
+
+
+}
+.display{
+    width: 100%;
+height: 75px;
+border: none;
+margin-bottom: 10px;
+border-radius: 8px;
+background-color: #a2af77;
+}
+
+input[type=button]{
+
+    width: 75px;
+    height: 75px;
+    margin: 2px;
+    border: none;
+    background-color: #58595b;
+    border: none;
+    color: #fff;
+    border-radius: 11px;
+}
